@@ -1,0 +1,33 @@
+.eleccion-grado-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  justify-content: center;
+  width: 120vh;
+  height: 60vh;
+  background-color: rgba(228, 222, 222, 0.8);
+  font-family: Arial, sans-serif;
+  position: relative;
+  margin-top: 100px;
+}
+
+.circles-container {
+  width: 100%;
+  height: 100%;
+  position: relative; /* Important to position circles absolutely inside this container */
+}
+
+.circle {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: absolute; /* Ensure it's absolutely positioned */
+}
